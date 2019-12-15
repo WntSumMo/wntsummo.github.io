@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+  .right-bg{
+    display:none;
+  }
+  .heading{
+    padding: 20px 50px 0 ;
+  }
+  .heading__title{
+    font-size: 38px;
+  }
+  .works__items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .header__nav{
+    font-size: 18px;
+    min-width: 320px;
+  }
+  .works__head{
+    margin: 30px 50px 50px;
+  }
+  .skills{
+    margin: 70px 50px 50px;
+  }
+  .contacts__block{
+    margin: 70px 50px 50px;
+  }
+}
+@media screen and (max-width:480px){
+  .works__items{
+    a{
+      margin: 0 30px;
+    }
+  }
+  .skills{
+    margin: 70px 50px 50px;
+  }
+}

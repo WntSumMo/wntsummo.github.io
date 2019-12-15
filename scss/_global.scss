@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "TTNorms";
+}
+body{
+  font-family: "TTNorms", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+}
+ul, li, h1, h2, h3, h4, h5, p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
