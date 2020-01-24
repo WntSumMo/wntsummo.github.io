@@ -110,7 +110,13 @@ $(function () {
   $(".slider-prev").on('mouseenter', function(){
       $(".portfolio__content").slick('slickPrev');
   });
-
+  
+  $( ".portfolio__content" ).on( "swipeleft", function() {
+    $(".portfolio__content").slick('slickNext');
+  });
+  
+  
+  
 
   // gallery 
   $('.lightzoom').lightzoom({
