@@ -96,6 +96,10 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         rows: 1,
+        touchMove: true,
+        swipe: true,
+        arrows: false,
+        lazyLoad: true,
       }
     }]
   });
@@ -107,12 +111,6 @@ $(function () {
       $(".portfolio__content").slick('slickPrev');
   });
 
-  $('.portfolio__content').click(function() {
-    $('.portfolio__content').slick('slickPause');
-  });
-  $('.portfolio__content').on("tap", function() {
-    $('.portfolio__content').slick('slickPause');
-  });
 
   // gallery 
   $('.lightzoom').lightzoom({
